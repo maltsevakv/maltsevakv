@@ -215,6 +215,7 @@ nav-footer {
 }
 
 .section {
+  position: relative;
   font-size: 0;
   padding: 0;
 }
@@ -228,6 +229,29 @@ nav-footer {
   background-color: #510fad;
   padding-top: 212px;
   padding-bottom: 194px;
+}
+
+.section-about:before{
+  content: "";
+  background: url('../img/wave-2.png') no-repeat 100%;
+  display: block;
+  position: absolute;
+  width: 1024px;
+  height: 100px;
+  top: -11%;
+  left: 0;
+  margin: 0 auto;
+}
+.section-about:after{
+  content: "";
+  background: url('../img/wave-1.png') no-repeat 100%;
+  display: block;
+  position: absolute;
+  width: 1024px;
+  height: 100px;
+  top: 99%;
+  left: 0;
+  margin: 0 auto;
 }
 
 .about-list,
@@ -358,7 +382,17 @@ nav-footer {
 .comments {
   padding: 0 20px;
 }
-
+.comments-subtitle:before{
+  content: "";
+  background: url('../img/commas.png') no-repeat 100%;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -22%;
+  left: -894px;
+  margin: 0 auto;
+}
 .comments-photo {
   padding: 0 20px;
   width: 50%;
@@ -578,9 +612,180 @@ footer .nav {
 .sprite-vk-2:hover {
     background-position: -77px -41px;
 }
+.about-list:{
+  position: relative;
+}
+.about-link:before,
+.about-link:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.about-link:before {
+  height: 25px;
+  width: 2px;
+  background-color: #ffec00;
+  transform: rotate(90deg);
+  top: 653px;
+  right: 288px;
+}
+.about-link:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #ffec00;
+  border-right: 2px solid #ffec00;
+  transform: rotate(45deg);
+  top: 659px;
+  right: 274px;
+}
+.breeds-discription{
+  position: relative;
+}
+.link-breeds-1:before,
+.link-breeds-1:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.link-breeds-1:before {
+  height: 25px;
+  width: 2px;
+  background-color: #510fad;
+  transform: rotate(90deg);
+  top: 156px;
+  right: 126px;
+}
+.link-breeds-1:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #510fad;
+  border-right: 2px solid #510fad;
+  transform: rotate(45deg);
+  top: 163px;
+  right: 112px;
+}
 
+.link-breeds-2:before,
+.link-breeds-2:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.link-breeds-2:before {
+  height: 25px;
+  width: 2px;
+  background-color: #510fad;
+  transform: rotate(90deg);
+  top: 156px;
+  right: 126px;
+}
+.link-breeds-2:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #510fad;
+  border-right: 2px solid #510fad;
+  transform: rotate(45deg);
+  top: 163px;
+  right: 112px;
+}
+.link-breeds-3:before,
+.link-breeds-3:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.link-breeds-3:before {
+  height: 25px;
+  width: 2px;
+  background-color: #510fad;
+  transform: rotate(90deg);
+  top: 126px;
+  right: 126px;
+}
+.link-breeds-3:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #510fad;
+  border-right: 2px solid #510fad;
+  transform: rotate(45deg);
+  top: 133px;
+  right: 113px;
+}
 
+.link-breeds-4:before,
+.link-breeds-4:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.link-breeds-4:before {
+  height: 25px;
+  width: 2px;
+  background-color: #510fad;
+  transform: rotate(90deg);
+  top: 126px;
+  right: 126px;
+}
+.link-breeds-4:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #510fad;
+  border-right: 2px solid #510fad;
+  transform: rotate(45deg);
+  top: 133px;
+  right: 113px;
+}
+ .all-about-photo-1,
+ .all-about-photo-2{
+   position: relative;
+ }
 
+ .link-all-about-1:before,
+ .link-all-about-1:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.link-all-about-1:before {
+  height: 25px;
+  width: 2px;
+  background-color: #510fad;
+  transform: rotate(90deg);
+  top: 248px;
+  right: 75px;
+}
+.link-all-about-1:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #510fad;
+  border-right: 2px solid #510fad;
+  transform: rotate(45deg);
+  top: 254px;
+  right: 63px;
+}
+.link-all-about-2:before,
+ .link-all-about-2:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.link-all-about-2:before {
+  height: 25px;
+  width: 2px;
+  background-color: #510fad;
+  transform: rotate(90deg);
+  top: 248px;
+  right: 75px;
+}
+.link-all-about-2:after {
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #510fad;
+  border-right: 2px solid #510fad;
+  transform: rotate(45deg);
+  top: 254px;
+  right: 63px;
+}
 
 
 
